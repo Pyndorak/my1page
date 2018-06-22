@@ -1,0 +1,55 @@
+/**Navigation**/
+
+.main-menu ul li {
+    list-style-type: none;
+    float: left;
+    width: 150px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.main-menu ul li a {
+    color: orangered;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    height: 60px;
+}
+
+.main-menu li a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+/**Navigation**/
+body {
+    background-color: gray;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 36px;
+    color: orangered;
+}
+
+#im img {
+    width: 46%;
+    padding-bottom: 50px;
+}
+
+footer {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 69, 0, 0.5);
+    bottom: 1px;
+    margin-top: 10px;
+
+}
+
+

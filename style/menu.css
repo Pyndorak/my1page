@@ -1,0 +1,33 @@
+
+.main-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.main-menu ul li {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: center;
+    line-height: 60px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    font-size: 24px;
+    height: 60px;
+    width: 150px;
+}
+
+.main-menu .icons {
+    margin-left: auto;
+}
+
+.main-menu li a:hover {
+    color: black;
+    background-color: white;
+}
+

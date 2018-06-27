@@ -1,11 +1,13 @@
 body {
     background-image: url("../aseets/ETMKqZ0diDQ.jpg");
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
     position: absolute;
     text-align: center;
-    top: 500px;
+    top: 450px;
     width: 100%;
     color: white;
 }
@@ -15,33 +17,6 @@ header {
     padding-top: 150px;
 }
 
-/**Navigation**/
-
-.main-menu ul li {
-    list-style-type: none;
-    display: inline-block;
-    width: 150px;
-    text-align: center;
-    line-height: 60px;
-}
-
-.main-menu ul li a {
-    color: orangered;
-    font-weight: bold;
-    font-size: 24px;
-    display: block;
-    height: 60px;
-}
-
-.main-menu li a:hover {
-    color: black;
-    background-color: white;
-}
-
-
-
-
-/**Navigation**/
 
 /**Main**/
 main {
@@ -50,60 +25,71 @@ main {
     color: white;
 }
 
-#me {
-
-    margin-top: 550px;
-    width: 100%;
+.me {
+    display: flex;
+    justify-content: flex-start;
+    width: 1200px;
     height: 455px;
-    text-align: center;
     background-color: rgb(255, 69, 0, 0.5);
+    margin-top: 500px;
 }
 
-.about, h3 {
+.about {
+    flex-direction: column;
+}
+ .about h3  {
     padding-top: 50px;
-}
+    }
 
-#me img {
+
+.me img {
     padding-top: 15px;
-    position: relative;
-    float: left;
     height: 426px;
     width: 640px;
     padding-left: 10px;
-
+}
+.container{
+    display: flex;
+    justify-content: space-around;
 }
 
-#edu {
-    display: inline-block;
-    float: left;
+.edu {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     width: 500px;
-    height: 400px;
+    height: 350px;
     background-color: rgb(255, 69, 0, 0.5);
     margin-top: 10px;
-    margin-left: 20px;
+    padding-bottom: 20px;
 }
 
-#favor {
-    display: inline-block;
-    float: right;
+.favor {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
     width: 500px;
-    height: 400px;
+    height: 350px;
     background-color: rgb(255, 69, 0, 0.5);
     margin-top: 10px;
-    margin-right: 20px;
+    padding-bottom: 20px;
+
 
 }
 
 /**Main**/
 
-footer {
-    display: inline-block;
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     height: 50px;
     width: 100%;
     color: white;
     text-align: center;
     background-color: rgb(255, 69, 0, 0.5);
     bottom: 1px;
-    margin-top: 10px;
+    margin-top: 20px;
+
 
 }
